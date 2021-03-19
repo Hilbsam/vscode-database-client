@@ -44,5 +44,89 @@
         "body": [
             "BETWEEN $1 AND $2"
         ]
+    },
+    "Count": {
+        "prefix": "count",
+        "body": [
+            "COUNT($1)"
+        ]
+    },
+    "MAX": {
+        "prefix": "max",
+        "body": [
+            "MAX($1)"
+        ]
+    },
+    "MIN": {
+        "prefix": "min",
+        "body": [
+            "MIN($1)"
+        ]
+    },
+    "SUM": {
+        "prefix": "sum",
+        "body": [
+            "SUM($1)"
+        ]
+    },
+    "AVG": {
+        "prefix": "avg",
+        "body": [
+            "AVG($1)"
+        ]
+    },
+    "FIRST": {
+        "prefix": "first",
+        "body": [
+            "FIRST($1)"
+        ]
+    },
+    "UCASE": {
+        "prefix": "ucase",
+        "body": [
+            "UCASE($1)"
+        ]
+    },
+    "LAST": {
+        "prefix": "last",
+        "body": [
+            "LAST($1)"
+        ]
+    },
+    "LCASE": {
+        "prefix": "lcase",
+        "body": [
+            "LCASE($1)"
+        ]
+    },
+    "MID": {
+        "prefix": "mid",
+        "body": [
+            "MID($1)"
+        ]
+    },
+    "LEN": {
+        "prefix": "len",
+        "body": [
+            "LEN($1)"
+        ]
+    },
+    "ROUND": {
+        "prefix": "round",
+        "body": [
+            "ROUND($1)"
+        ]
+    },
+    "NOW": {
+        "prefix": "now",
+        "body": [
+            "NOW($1)"
+        ]
+    },
+    "FORMAT": {
+        "prefix": "format",
+        "body": [
+            "FORMAT($1)"
+        ]
     }
 }
